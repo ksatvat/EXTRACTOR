@@ -1,3 +1,6 @@
 [submodule "allennlp"]
 	path = allennlp
 	url = https://github.com/allenai/allennlp.git
+[submodule "srl/allennlp"]
+	path = srl/allennlp
+	url = https://github.com/allenai/allennlp.git
