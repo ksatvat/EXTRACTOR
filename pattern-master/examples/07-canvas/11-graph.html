@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+    <script type="text/javascript" src="../../pattern/canvas.js"></script>
+</head>
+<body>
+    <script type="text/canvas">
+		function setup(canvas) {
+			canvas.size(800, 500);
+			// Import the graph.js module asynchronously.
+			// Import the commonsense.js data asynchronously.
+			include("http://www.clips.ua.ac.be/media/canvas/graph.js");
+			include("http://www.clips.ua.ac.be/media/canvas/data/commonsense.js");
+			// Using include() in the setup() function ensures that 
+			// everything will be done loading at the first draw().
+			// We can think of many interesting ways to import extra JavaScript modules.
+			try {
+				g.clear(); halo.clear(); // Clear previous run (if any).
+			} catch(e) {}
+		}
+		function draw(canvas) {
+			if (canvas.frame == 1) {
+				// The first frame is a good time to initialize the graph.
+				// At this point we are certain that the module has finished loading.
+				// Create a new Graph object:
+				g = new Graph();
+				// Traverse the relations in the common sense dataset.
+				// Loading commonsense.js defines a list of relations named "commonsense".
+				// Each relation has the form: [concept1, relation, concept2, context].
+				// For example, ["red", "is-property-of", "rose", "nature"].
+				// Add each relation as an edge (connection) to the graph.
+				Array.enumerate(commonsense, function(i, r) {
+					g.addEdge(r[0], r[2], {type:r[1], context:r[3]});
+				});
+				// Graph.node() retrieves a Node object by id.
+				// Node.flatten() returns a list with the Node (depth=0), 
+				// each node connected to it (depth=1), and so on.
+				// We call this the concept "halo":
+				// the latent concepts that reinforce the concept itself.
+				// Create a subgraph of the node's halo:
+				halo = g.copy(canvas.element, g.node('rocket').flatten(2));
+				// Note how we pass Canvas.element, the drawing context.
+				// Calculcate Graph.eigenvectorCentrality().
+				// This is a measure of each node's importance,
+				// based on the (indirect) incoming connections.
+				// Once calculated we can then use Node.weight.
+				halo.eigenvectorCentrality();
+				// Similarly, Graph.betweennessCentrality() is a
+				// measure of node importance based on passing traffic.
+				// Once calculted we can use Node.centrality.
+				halo.betweennessCentrality();
+				// Traverse all the nodes in the halo.
+				// Each node will have an associated text label displaying its id.
+				// The text label is stored in a <div class="node-label"> element, 
+				// for which we can define CSS styles.
+				Array.enumerate(halo.nodes, function(i, n) {
+					n.radius = 4 + 6 * n.weight;
+					n.text.style.marginLeft =  n.radius + 2 + "px";
+					n.text.style.marginTop  = -n.radius - 2 + "px";
+					n.text.style.fontFamily = "Arial";
+					n.text.style.fontSize   = "9px";
+					n.text.style.textTransform = "uppercase";
+				});
+				// Some nodes have a lot of "leaf" nodes, that is,
+				// nodes that only connect to this node.
+				// We want to prune some of them to avoid cluttering the visualization.
+				Array.enumerate(halo.nodes, function(i, n1) {
+					Array.enumerate(n1.links, function(j, n2) {
+						if (n1.links.length > 10 && n2.links.length == 1) {
+							halo.remove(n2);
+						}
+					});
+				});
+				// Graph.shortestPath() takes two nodes and returns 
+				// the shortest path between them as a list of nodes.
+				// To get the edges connecting these nodes, we can use the edges() function.
+				var p = halo.shortestPath("expensive", "rocket");
+				Array.enumerate(edges(p), function(i, e) {
+					e.stroke = color(0, 0.2, 1);
+					e.strokewidth = 1.25;
+				});
+				// We could also highlight the nodes along the path:
+				Array.enumerate(p, function(i, n) {
+					n.fill = color(0, 0.2, 1, 0.5);
+					n.text.style.background = "#000";
+					n.text.style.color = "#fff";
+				});
+			}
+			// The Graph.layout.iterations increments each time Graph.update() is called.
+			// Graph.update() calculates the attractive and repulsive forces between nodes.
+			// We set a limit to the number of updates + redraws,
+			// so the CPU doesn't start overheating.
+			if (halo.layout.iterations < 1000) {
+				canvas.clear();
+				//shadow(); // Looks nice but slow.
+				background(1);
+				fill(0, 0.2, 1, 0.2);
+				stroke(0, 0.5);
+				strokewidth(1);
+				halo.update();
+				halo.draw(false, true); // weighted=false, directed=true (arrowheads)
+			}
+			// When the user drags the mouse on a node,
+			// Graph.layout.iterations is reset to 0, so the graph is redrawn.
+			halo.drag(canvas.mouse);
+		}
+		function stop(canvas) {
+			halo.clear();
+		}
+    </script>
+</body>
+</html>
