@@ -1,0 +1,21 @@
+In order to be able to use LIBSVM and LIBLINEAR you have to download, compile and install both libraries.
+
+- If you are on ArchLinux: pacman -S libsvm liblinear (or you can install liblinear-multicore instead of liblinear)
+- If you are on Ubutun/Debian: e.g. apt-cache search libsvm (to find the right packages)
+- If you are on Windows or Mac OS follow the guidelines on the website listed below.
+- You can also manually download, compile and install both libraries. Read on for further information.
+
+To install from source, download the latest versions of LIBSVM and LIBLINEAR:
+http://www.csie.ntu.edu.tw/~cjlin/libsvm/
+http://www.csie.ntu.edu.tw/~cjlin/liblinear/
+
+- From the command line, do "make" in libsvm/. 
+- Now do "make" in libsvm/python/. 
+- You should see a file "libsvm.so.2", which is the binary you need.
+- Put it in pattern/vector/svm/libsvm-x.xx/
+
+Repeat the steps for LIBLINEAR.
+
+You may need to rename option "-soname" to "-install_name" in the Makefile on Mac OS X. 
+
+You may need to modify pattern/vector/svm/svm.py around line 15 to import the new binary. Please send us a copy of the compiled binary so we can include it in the next release.
