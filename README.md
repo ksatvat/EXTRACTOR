@@ -1,6 +1,6 @@
 # EXTRACTOR
 
-EXTRACTOR helps to extract the system level attack behavior from unstructured threat reports. EXTRACTOR leverages Natural Language Processing (NLP) techniques to transform a raw threat report into a graph representation.
+EXTRACTOR helps to extract the system level attack behavior from unstructured threat reports. The extracted attack behavior will be represented in form of directed graphs, where the nodes represent system entities and edges represent system calls. EXTRACTOR leverages Natural Language Processing (NLP) techniques to transform a raw threat report into a graph representation.
 
 ## Instructions
 ### Requirements
