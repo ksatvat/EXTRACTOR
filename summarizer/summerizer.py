@@ -9,7 +9,7 @@ main_verbs = load_lists(fpath)['verbs']
 main_verbs = main_verbs.replace("'", "").strip('][').split(', ')
 sentences = r''' '''
 
-# Abstractive
+# Abstractive/ To be added 
 def ats():
     for sentence in range(sent_tokenize(sentences)):
         predictor = Predictor.from_path("srl-model.tar.gz")
