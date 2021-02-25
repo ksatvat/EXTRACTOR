@@ -35,4 +35,12 @@ Through `[--crf true/false]`, you can activate co-referencing. `[--rmdup true/fa
 
 
 ## Summarizer
+To perform the prediction/text summarization, you need to first convert the `txt` file to the required format `tsv`.
 ### How to create tsv file
+`python3 txt2tsv.py`
+
+
+### Prediction
+`python3 prediction.py`
+
+
