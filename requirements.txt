@@ -1,0 +1,8 @@
+nltk == 3.4.5
+spaCy == 2.1.0
+allennlp == 0.8.4
+neuralcoref == 4.0.0
+graphviz == 0.13.2
+textblob == 0.15.3
+pattern == 3.6
+numpy == 1.18.1
