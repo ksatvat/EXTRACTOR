@@ -25,10 +25,13 @@ You can directly install the requirements using `pip install -r requirements.txt
 
 Run EXTRACTOR with `python3 main.py [-h] [--asterisk ASTERISK] [--crf CRF] [--rmdup RMDUP] [--elip ELIP] [--gname GNAME] [--input_file INPUT_FILE]`.
 
-Depending on the usage, each argument helps to provide a different representation of the attack behavior. `[--asterisk true]` creates ab abstraction and can be used to replace anything that is not perceived as IOC/system entity into a wild-card. This representation can be used to be searched within the audit-logs.  
-Through `[--crf true/false]`, you can activate co-referencing. `[--rmdup true/false]` enables removal of duplicate nodes-edge. `[--elip true/false]` is to choose whether to replace ellipsis subjects using the surrounding subject or not.
-
-
+Depending on the usage, each argument helps to provide a different representation of the attack behavior. 
+`[--asterisk true]` creates ab abstraction and can be used to replace anything that is not perceived as IOC/system entity into a wild-card. This representation can be used to be searched within the audit-logs.  
+`[--crf true/false]` allows activating or deactivating of the co-referencing module. 
+`[--rmdup true/false]` enables removal of duplicate nodes-edge. 
+`[--elip true/false]` is to choose whether to replace ellipsis subjects using the surrounding subject or not.
+`[--input_file path/filename.txt]` is to pass the text file to the application. 
+`[--gname graph_name]` is to specify the name output graph (two files will be created, e.g., graph.pdf and graph.dot)
 
 #### Example
 `python3 main.py --asterisk true --crf true --rmdup true --elip true --input_file input.txt --gname mygraph`
@@ -39,6 +42,6 @@ To perform the prediction/text summarization, you need to first convert the `txt
 
 
 ### Prediction
-To do the extractive summarization run `python3 prediction.py`
+To do the extractive summarization, run `python3 prediction.py`
 
 
