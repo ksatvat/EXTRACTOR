@@ -43,6 +43,7 @@ def roles(sentences):
     my_svo_triplet = []
     all_nodes = []
     for i in range(len(sentences)):
+        # public SRL model https://s3-us-west-2.amazonaws.com/allennlp/models/srl-model-2018.05.25.tar.gz
         predictor = Predictor.from_path("srl-model.tar.gz")
         predictions = predictor.predict(sentences[i])
         lst = []
