@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ebec55cf-8d10-49a4-95c5-8f15d1195cb1" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1687888827">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ini" value="3" />
+          <entry key="py" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Ini" value="3" />
+          <entry key="Python" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="8" />
+          <entry key="py" value="516" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="524" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graph_builder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/patterns.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" selection-start-line="30" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/POIROT-graph-test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="34" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/POIROTgraph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/POIROTpreprocessings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/POIROTsrl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/POIROTtokenizer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="48" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/envs/py36/lib/python3.6/sre_parse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5025">
+              <caret line="335" selection-start-line="335" selection-end-line="335" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-7.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cve</find>
+      <find>php</find>
+      <find>find_them_all</find>
+      <find>167</find>
+      <find>neuralcoref</find>
+      <find>load</find>
+      <find>FINALLLLLLLL:</find>
+      <find>smb</find>
+      <find>obtain</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Data/patterns-file.ini" />
+        <option value="$PROJECT_DIR$/test-7.py" />
+        <option value="$PROJECT_DIR$/POIROTtokenizer.py" />
+        <option value="$PROJECT_DIR$/POIROTpreprocessings.py" />
+        <option value="$PROJECT_DIR$/POIROTgraph.py" />
+        <option value="$PROJECT_DIR$/POIROTsrl.py" />
+        <option value="$PROJECT_DIR$/graph_builder.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="693" />
+    <option name="y" value="470" />
+    <option name="width" value="1051" />
+    <option name="height" value="619" />
+  </component>
+  <component name="ProjectId" id="1YgDDLbofXOhTGkBIwLElFOkd2g" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PIROT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIROT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PIROT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIROT" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/me/Desktop/PIROT/play.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/paperExperiment" />
+      <recent name="$PROJECT_DIR$/Test-Graphs" />
+      <recent name="$PROJECT_DIR$/HawkEye" />
+      <recent name="$PROJECT_DIR$/DeputyDog" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/paperExperiment" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Agent.BTZ/useful sentences" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.graph_builder">
+    <configuration name="PIROTmain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PIROT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PIROTmain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="POIROTgraph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PIROT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POIROTgraph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="POIROTtokenizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PIROT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POIROTtokenizer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="graph_builder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PIROT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph_builder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test-7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PIROT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test-7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.PIROTmain" />
+      <item itemvalue="Python.graph_builder" />
+      <item itemvalue="Python.test-7" />
+      <item itemvalue="Python.POIROTtokenizer" />
+      <item itemvalue="Python.POIROTgraph" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.graph_builder" />
+        <item itemvalue="Python.POIROTgraph" />
+        <item itemvalue="Python.POIROTtokenizer" />
+        <item itemvalue="Python.test-7" />
+        <item itemvalue="Python.PIROTmain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebec55cf-8d10-49a4-95c5-8f15d1195cb1" name="Default Changelist" comment="" />
+      <created>1568908644117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568908644117</updated>
+      <workItem from="1583355223739" duration="1786000" />
+      <workItem from="1583358830029" duration="2706000" />
+      <workItem from="1583591159477" duration="143000" />
+      <workItem from="1583592480391" duration="1140000" />
+      <workItem from="1583598693886" duration="1077000" />
+      <workItem from="1583934903379" duration="2160000" />
+      <workItem from="1584131174008" duration="859000" />
+      <workItem from="1584727085636" duration="7619000" />
+      <workItem from="1584800793473" duration="1577000" />
+      <workItem from="1584804259346" duration="3306000" />
+      <workItem from="1588647273469" duration="358000" />
+      <workItem from="1588650999693" duration="15000" />
+      <workItem from="1588700814236" duration="2203000" />
+      <workItem from="1588771583059" duration="6116000" />
+      <workItem from="1588806887761" duration="3190000" />
+      <workItem from="1588857290919" duration="12536000" />
+      <workItem from="1588984913561" duration="1751000" />
+      <workItem from="1589031657711" duration="2746000" />
+      <workItem from="1589122494984" duration="370000" />
+      <workItem from="1589205936288" duration="7561000" />
+      <workItem from="1589288755975" duration="8880000" />
+      <workItem from="1589376157660" duration="4627000" />
+      <workItem from="1589403877098" duration="31000" />
+      <workItem from="1589489769630" duration="538000" />
+      <workItem from="1589813832007" duration="4081000" />
+      <workItem from="1589979505875" duration="6668000" />
+      <workItem from="1590008014847" duration="2227000" />
+      <workItem from="1590066370064" duration="334000" />
+      <workItem from="1590153827049" duration="1710000" />
+      <workItem from="1590268720540" duration="1446000" />
+      <workItem from="1590411721752" duration="757000" />
+      <workItem from="1590414950934" duration="2054000" />
+      <workItem from="1590500075323" duration="3285000" />
+      <workItem from="1590539766629" duration="617000" />
+      <workItem from="1590586320815" duration="806000" />
+      <workItem from="1590613682887" duration="205000" />
+      <workItem from="1590766534370" duration="2206000" />
+      <workItem from="1591014609749" duration="9486000" />
+      <workItem from="1591036271861" duration="28505000" />
+      <workItem from="1591189861658" duration="20643000" />
+      <workItem from="1591282486711" duration="396000" />
+      <workItem from="1591283047565" duration="101000" />
+      <workItem from="1591283224211" duration="13000" />
+      <workItem from="1591283239762" duration="124000" />
+      <workItem from="1591283467861" duration="731000" />
+      <workItem from="1591284408744" duration="6000" />
+      <workItem from="1591284426658" duration="4050000" />
+      <workItem from="1591290210883" duration="15097000" />
+      <workItem from="1591362666252" duration="21784000" />
+      <workItem from="1591392661713" duration="17602000" />
+      <workItem from="1591447243749" duration="21569000" />
+      <workItem from="1591620521183" duration="308000" />
+      <workItem from="1591625821404" duration="2411000" />
+      <workItem from="1591634831548" duration="8723000" />
+      <workItem from="1591706944760" duration="23284000" />
+      <workItem from="1591758024080" duration="2342000" />
+      <workItem from="1591803305679" duration="416000" />
+      <workItem from="1591806320186" duration="15000" />
+      <workItem from="1591812180325" duration="15000" />
+      <workItem from="1591817411437" duration="7000" />
+      <workItem from="1591820316245" duration="3668000" />
+      <workItem from="1591881341720" duration="1115000" />
+      <workItem from="1591883523780" duration="823000" />
+      <workItem from="1592544725960" duration="603000" />
+      <workItem from="1594653937277" duration="2570000" />
+      <workItem from="1595010441938" duration="2019000" />
+      <workItem from="1595342141542" duration="6635000" />
+      <workItem from="1596243769640" duration="1666000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17829457" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4324659" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32961586" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32961586" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32961586" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17829457" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32342008" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32961586" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32961586" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32961586" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="880" y="387" key="#Inspections" timestamp="1591286584510">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="880" y="387" key="#Inspections/0.0.2560.1440@0.0.2560.1440" timestamp="1591286584510" />
+    <state x="1004" y="530" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595010614506">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1004" y="530" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1595010614506" />
+    <state x="968" y="464" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591284548473">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="968" y="464" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1591284548473" />
+    <state x="1116" y="324" width="1090" height="936" key="FileChooserDialogImpl" timestamp="1591280754682">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1116" y="324" width="1090" height="936" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1591280754682" />
+    <state width="2518" height="306" key="GridCell.Tab.0.bottom" timestamp="1596407232385">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="306" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1596407232385" />
+    <state width="1799" height="518" key="GridCell.Tab.0.bottom/0.23.2560.1333@0.23.2560.1333" timestamp="1595115562344" />
+    <state width="2518" height="306" key="GridCell.Tab.0.center" timestamp="1596407232385">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="559" key="GridCell.Tab.0.center/0.0.2560.1356@0.0.2560.1356" timestamp="1590513584584" />
+    <state width="2518" height="306" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1596407232385" />
+    <state width="1799" height="518" key="GridCell.Tab.0.center/0.23.2560.1333@0.23.2560.1333" timestamp="1595115562344" />
+    <state width="2518" height="306" key="GridCell.Tab.0.left" timestamp="1596407232384">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="306" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1596407232384" />
+    <state width="1799" height="518" key="GridCell.Tab.0.left/0.23.2560.1333@0.23.2560.1333" timestamp="1595115562343" />
+    <state width="2518" height="306" key="GridCell.Tab.0.right" timestamp="1596407232385">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="306" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1596407232385" />
+    <state width="1799" height="518" key="GridCell.Tab.0.right/0.23.2560.1333@0.23.2560.1333" timestamp="1595115562344" />
+    <state width="2518" height="566" key="GridCell.Tab.1.bottom" timestamp="1595357578790">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="566" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1595357578790" />
+    <state width="2518" height="566" key="GridCell.Tab.1.bottom/0.23.2560.1333@0.23.2560.1333" timestamp="1591721352786" />
+    <state width="2518" height="566" key="GridCell.Tab.1.center" timestamp="1595357578789">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="566" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1595357578789" />
+    <state width="2518" height="566" key="GridCell.Tab.1.center/0.23.2560.1333@0.23.2560.1333" timestamp="1591721352785" />
+    <state width="2518" height="566" key="GridCell.Tab.1.left" timestamp="1595357578789">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="566" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1595357578789" />
+    <state width="2518" height="566" key="GridCell.Tab.1.left/0.23.2560.1333@0.23.2560.1333" timestamp="1591721352785" />
+    <state width="2518" height="566" key="GridCell.Tab.1.right" timestamp="1595357578789">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="566" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1595357578789" />
+    <state width="2518" height="566" key="GridCell.Tab.1.right/0.23.2560.1333@0.23.2560.1333" timestamp="1591721352786" />
+    <state x="830" y="200" width="1469" height="722" key="SettingsEditor" timestamp="1595345623305">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="830" y="200" width="1469" height="722" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1595345623305" />
+    <state x="830" y="208" key="SettingsEditor/0.23.2560.1333@0.23.2560.1333" timestamp="1588801546249" />
+    <state width="1280" height="720" key="XDebugger.FullValuePopup" timestamp="1591724044009">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1280" height="720" key="XDebugger.FullValuePopup/0.0.2560.1440@0.0.2560.1440" timestamp="1591724044009" />
+    <state width="1280" height="720" key="XDebugger.FullValuePopup/0.23.2560.1333@0.23.2560.1333" timestamp="1591113340821" />
+    <state x="1351" y="649" key="com.intellij.ide.util.TipDialog" timestamp="1591282489880">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1351" y="649" key="com.intellij.ide.util.TipDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1591282489880" />
+    <state x="1114" y="658" key="com.intellij.ide.util.TipDialog/0.23.2560.1333@0.23.2560.1333" timestamp="1590500075150" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1591552425135">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1591552425135" />
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1591717201219">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1591717201219" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/POS tages.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test 4.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LARG-SCLAE.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trenmicro-set-tokenizer.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trenmicro-set-tokenizer.py</url>
+          <line>287</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test5.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="lst_handled_titles" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PIROT$CLSTM_g_dev_test.coverage" NAME="CLSTM-g-dev test Coverage Results" MODIFIED="1588881205981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/Networks" />
+    <SUITE FILE_PATH="coverage/PIROT$graph_test.coverage" NAME="POIROT-graph-test Coverage Results" MODIFIED="1591550370878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$split_dataset.coverage" NAME="split dataset Coverage Results" MODIFIED="1588805187579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/PIROT$LARG_SCLAE.coverage" NAME="LARG-SCLAE Coverage Results" MODIFIED="1591448362682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$LSTM_glove_dev_test.coverage" NAME="LSTM-glove-dev test Coverage Results" MODIFIED="1588883332457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/Networks" />
+    <SUITE FILE_PATH="coverage/PIROT$test_4.coverage" NAME="test 4 Coverage Results" MODIFIED="1591451790734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$microsoft_scraper.coverage" NAME="microsoft_scraper Coverage Results" MODIFIED="1591364816765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$trenmicro_set_tokenizer.coverage" NAME="trenmicro-set-tokenizer Coverage Results" MODIFIED="1591748631502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$ply2.coverage" NAME="ply2 Coverage Results" MODIFIED="1588802819728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1590513346955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$passive2active.coverage" NAME="passive2active Coverage Results" MODIFIED="1591290776233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$POS_tages.coverage" NAME="POS tages Coverage Results" MODIFIED="1591103616946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$mahshid_function.coverage" NAME="mahshid_function Coverage Results" MODIFIED="1591289649504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$sentence_tokenizer.coverage" NAME="sentence_tokenizer Coverage Results" MODIFIED="1591803434528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$coref.coverage" NAME="coref Coverage Results" MODIFIED="1591019186294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$POIROT_preprocessings_2.coverage" NAME="POIROT-preprocessings-2 Coverage Results" MODIFIED="1591287030160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$test.coverage" NAME="test Coverage Results" MODIFIED="1590513330229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$subject_verb_object_extract.coverage" NAME="subject_verb_object_extract Coverage Results" MODIFIED="1591379472026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$function_play.coverage" NAME="function_play Coverage Results" MODIFIED="1591287626781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$test_6.coverage" NAME="test 6 Coverage Results" MODIFIED="1591725252169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$graph_builder.coverage" NAME="graph_builder Coverage Results" MODIFIED="1596244920082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$CNN_Glove_testset_specified.coverage" NAME="CNN-Glove-testset specified Coverage Results" MODIFIED="1588810708516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/PIROT$counter.coverage" NAME="counter Coverage Results" MODIFIED="1590418111919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../counter" />
+    <SUITE FILE_PATH="coverage/PIROT$microso_symptom_graph_builder.coverage" NAME="microso_symptom_graph_builder Coverage Results" MODIFIED="1591712169611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$POIROTpreprocessingstest.coverage" NAME="POIROTpreprocessingstest Coverage Results" MODIFIED="1591630486935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$inefficacy.coverage" NAME="inefficacy Coverage Results" MODIFIED="1583361078313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inefficacy nlp toolkit" />
+    <SUITE FILE_PATH="coverage/PIROT$main.coverage" NAME="main Coverage Results" MODIFIED="1595347717989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$POIROT_tokenizer.coverage" NAME="POIROT-tokenizer Coverage Results" MODIFIED="1591121551505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$counter__1_.coverage" NAME="counter (1) Coverage Results" MODIFIED="1590500093131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Modules/scrapers/trendmicro/threats/data" />
+    <SUITE FILE_PATH="coverage/PIROT$POIROTtokenizer.coverage" NAME="POIROTtokenizer Coverage Results" MODIFIED="1591403216843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$WhereWeLeft.coverage" NAME="WhereWeLeft Coverage Results" MODIFIED="1591883967323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$POIROT_graph.coverage" NAME="POIROT-graph Coverage Results" MODIFIED="1591448503057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$ply.coverage" NAME="ply Coverage Results" MODIFIED="1591364735739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$get_labels.coverage" NAME="get_labels Coverage Results" MODIFIED="1588907544143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/Telegram Desktop" />
+    <SUITE FILE_PATH="coverage/PIROT$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1589321265794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$POIROT_SRL__Mahshids_MBP_sisl_rites_uic_edu_s_conflicted_copy_2020_06_04_.coverage" NAME="POIROT-SRL (Mahshids-MBP.sisl.rites.uic.edu's conflicted copy 2020-06-04) Coverage Results" MODIFIED="1595347626738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$POIROTpreprocessings.coverage" NAME="POIROTpreprocessings Coverage Results" MODIFIED="1591405675282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$PIROTmain.coverage" NAME="PIROTmain Coverage Results" MODIFIED="1595349846499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$POIROT_SRL.coverage" NAME="POIROT-SRL Coverage Results" MODIFIED="1591310142546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIROT$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1591742340217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/POIROTpreprocessingstest.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test 6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="24" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/patterns-file.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/py36/lib/python3.6/site-packages/spacy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/patterns.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="30" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POIROT-graph-test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POIROTgraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POIROTpreprocessings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POIROTsrl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POIROTtokenizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/py36/lib/python3.6/sre_parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5025">
+          <caret line="335" selection-start-line="335" selection-end-line="335" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
