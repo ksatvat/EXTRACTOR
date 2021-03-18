@@ -26,7 +26,7 @@ You can directly install the requirements using `pip install -r requirements.txt
 Run EXTRACTOR with `python3 main.py [-h] [--asterisk ASTERISK] [--crf CRF] [--rmdup RMDUP] [--elip ELIP] [--gname GNAME] [--input_file INPUT_FILE]`.
 
 Depending on the usage, each argument helps to provide a different representation of the attack behavior. 
-`[--asterisk true]` creates ab abstraction and can be used to replace anything that is not perceived as IOC/system entity into a wild-card. This representation can be used to be searched within the audit-logs.  
+`[--asterisk true]` creates abstraction and can be used to replace anything that is not perceived as IOC/system entity into a wild-card. This representation can be used to be searched within the audit-logs.  
 
 `[--crf true/false]` allows activating or deactivating of the co-referencing module. 
 
