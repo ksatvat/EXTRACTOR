@@ -42,6 +42,8 @@ Depending on the usage, each argument helps to provide a different representatio
 #### Example
 `python3 main.py --asterisk true --crf true --rmdup true --elip true --input_file input.txt --gname mygraph`
 
+Here is a sample of attack description and the corresponding attack behavior graph.
+<img width="1708" alt="text and graph" src="https://user-images.githubusercontent.com/43620635/111570328-9c1b7a00-8772-11eb-9f17-383aa685a494.png">
 
 ## Summarizer
 To perform the prediction/text summarization, you need to first convert the `txt` file to the required format `tsv` using `python3 txt2tsv.py`.
