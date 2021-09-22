@@ -3,7 +3,7 @@
 # EXTRACTOR
 
 EXTRACTOR helps to extract the system level attack behavior from unstructured threat reports. The extracted attack behavior will be represented in form of directed graphs, where the nodes represent system entities and edges represent system calls. EXTRACTOR leverages Natural Language Processing (NLP) techniques to transform a raw threat report into a graph representation.
-<img width="1710" alt="architecture" src="https://user-images.githubusercontent.com/43620635/111570179-39c27980-8772-11eb-9c10-dcb497d6a4e3.png">
+
 
 ## Instructions
 ### Requirements
@@ -41,9 +41,6 @@ Depending on the usage, each argument helps to provide a different representatio
 
 #### Example
 `python3 main.py --asterisk true --crf true --rmdup true --elip true --input_file input.txt --gname mygraph`
-
-Here is a sample of attack description and the corresponding attack behavior graph.
-<img width="1708" alt="text and graph" src="https://user-images.githubusercontent.com/43620635/111570328-9c1b7a00-8772-11eb-9f17-383aa685a494.png">
 
 ## Summarizer
 To perform the prediction/text summarization, you need to first convert the `txt` file to the required format `tsv` using `python3 txt2tsv.py`.
