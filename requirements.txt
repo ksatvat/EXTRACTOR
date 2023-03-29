@@ -5,4 +5,4 @@ neuralcoref == 4.0.0
 graphviz == 0.13.2
 textblob == 0.15.3
 pattern == 3.6
-numpy == 1.18.1
+numpy == 1.22.0
